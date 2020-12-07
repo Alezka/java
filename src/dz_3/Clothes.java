@@ -10,4 +10,13 @@ public abstract class Clothes {
         this.color = color;
         Sizes = sizes;
     }
+
+    @Override
+    public String toString() {
+        return "{" +
+                "price=" + price +
+                ", color='" + color + '\'' +
+                ", Sizes=" + Sizes +
+                '}';
+    }
 }
